@@ -1,0 +1,11 @@
+PREFIX kg: <http://example.org/kg/24p-0030/>
+
+SELECT ?person ?birthplace
+WHERE {
+    ?person a kg:Person .
+
+    OPTIONAL {
+        ?person kg:bornIn ?birthplace .
+    }
+}
+ORDER BY ?person

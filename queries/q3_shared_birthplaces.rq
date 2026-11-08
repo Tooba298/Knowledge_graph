@@ -1,0 +1,10 @@
+PREFIX kg: <http://example.org/kg/24p-0030/>
+
+SELECT ?person1 ?person2 ?birthplace
+WHERE {
+    ?person1 kg:bornIn ?birthplace .
+    ?person2 kg:bornIn ?birthplace .
+
+    FILTER(?person1 != ?person2)
+    FILTER(STR(?person1) < STR(?person2))
+}

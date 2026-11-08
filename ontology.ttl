@@ -1,0 +1,61 @@
+@prefix kg: <http://example.org/kg/24p-0030/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://example.org/kg/24p-0030/> rdf:type owl:Ontology .
+
+# Classes
+
+kg:Person rdf:type owl:Class .
+
+kg:Place rdf:type owl:Class .
+
+kg:Organization rdf:type owl:Class .
+
+kg:Award rdf:type owl:Class .
+
+
+# Disjoint Classes
+
+kg:Person owl:disjointWith kg:Place .
+
+kg:Person owl:disjointWith kg:Organization .
+
+kg:Person owl:disjointWith kg:Award .
+
+
+# bornIn
+
+kg:bornIn rdf:type owl:ObjectProperty ;
+    rdf:type owl:FunctionalProperty ;
+    rdfs:domain kg:Person ;
+    rdfs:range kg:Place .
+
+
+# educatedAt
+
+kg:educatedAt rdf:type owl:ObjectProperty ;
+    rdfs:domain kg:Person ;
+    rdfs:range kg:Organization .
+
+
+# receivedAward
+
+kg:receivedAward rdf:type owl:ObjectProperty ;
+    rdfs:domain kg:Person ;
+    rdfs:range kg:Award .
+
+
+# worksAt
+
+kg:worksAt rdf:type owl:ObjectProperty ;
+    rdfs:domain kg:Person ;
+    rdfs:range kg:Organization .
+
+
+# doctoralAdvisor
+
+kg:doctoralAdvisor rdf:type owl:ObjectProperty ;
+    rdfs:domain kg:Person ;
+    rdfs:range kg:Person .

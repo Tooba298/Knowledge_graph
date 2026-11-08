@@ -1,0 +1,44 @@
+@prefix kg: <http://example.org/kg/24p-0030/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+# Person Shape
+
+kg:PersonShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Person ;
+
+    # Birthplace constraint
+    sh:property [
+        sh:path kg:bornIn ;
+        sh:class kg:Place ;
+        sh:maxCount 1 ;
+        sh:message "A person can have at most one birthplace, and the birthplace must be a Place."
+    ] ;
+
+    # Education constraint
+    sh:property [
+        sh:path kg:educatedAt ;
+        sh:class kg:Organization ;
+        sh:message "Educational institution must be an Organization."
+    ] ;
+
+    # Award constraint
+    sh:property [
+        sh:path kg:receivedAward ;
+        sh:class kg:Award ;
+        sh:message "Received award must be an Award."
+    ] ;
+
+    # Employment constraint
+    sh:property [
+        sh:path kg:worksAt ;
+        sh:class kg:Organization ;
+        sh:message "Workplace must be an Organization."
+    ] ;
+
+    # Doctoral advisor constraint
+    sh:property [
+        sh:path kg:doctoralAdvisor ;
+        sh:class kg:Person ;
+        sh:message "Doctoral advisor must be a Person."
+    ] .

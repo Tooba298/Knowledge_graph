@@ -1,0 +1,6 @@
+predicate,TP,FP,FN,precision,recall
+bornin,2,2,2,0.5,0.5
+educatedat,2,7,12,0.2222,0.1429
+receivedaward,10,18,43,0.3571,0.1887
+worksat,0,4,20,0.0,0.0
+doctoraladvisor,1,0,4,1.0,0.2

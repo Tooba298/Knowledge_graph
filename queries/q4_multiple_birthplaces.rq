@@ -1,0 +1,8 @@
+PREFIX kg: <http://example.org/kg/24p-0030/>
+
+SELECT ?person (COUNT(DISTINCT ?birthplace) AS ?birthplaceCount)
+WHERE {
+    ?person kg:bornIn ?birthplace .
+}
+GROUP BY ?person
+HAVING (COUNT(DISTINCT ?birthplace) >= 2)

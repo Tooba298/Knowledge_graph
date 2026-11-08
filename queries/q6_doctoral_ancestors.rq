@@ -1,0 +1,6 @@
+PREFIX kg: <http://example.org/kg/24p-0030/>
+
+SELECT ?person ?ancestor
+WHERE {
+    ?person kg:doctoralAdvisor+ ?ancestor .
+}

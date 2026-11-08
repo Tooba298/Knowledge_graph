@@ -1,0 +1,201 @@
+@prefix kg: <http://example.org/kg/24p-0030/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+kg: a owl:Ontology .
+
+kg:Eugene_Paul_Wigner a kg:Person ;
+    kg:bornIn kg:Budapest ;
+    kg:doctoralAdvisor kg:Michael_Polanyi ;
+    kg:educatedAt kg:the_secondary_grammar_school,
+        kg:the_secondary_school ;
+    kg:receivedAward kg:Atoms_for_Peace_Award,
+        kg:Wigner_Medal,
+        kg:the_Albert_Einstein_Award,
+        kg:the_Enrico_Fermi_award,
+        kg:the_Franklin_Medal,
+        kg:the_Golden_Plate_Award,
+        kg:the_Herzl_Prize,
+        kg:the_Max_Planck_Medal,
+        kg:the_National_Medal,
+        kg:the_Nobel_Prize ;
+    kg:worksAt kg:DuPont,
+        kg:the_Kaiser_Wilhelm_Institute .
+
+kg:Faryal_Gilani a kg:Person ;
+    kg:bornIn kg:Faisalabad ;
+    kg:doctoralAdvisor kg:Junaid_Awan ;
+    kg:educatedAt kg:Marlow_University,
+        kg:Northgate_College_of_Science ;
+    kg:receivedAward kg:the_Northgate_Prize ;
+    kg:worksAt kg:Calder_Institute .
+
+kg:James_Chadwick a kg:Person ;
+    kg:bornIn kg:Cheshire ;
+    kg:educatedAt kg:Victoria_University_of_Manchester,
+        kg:the_Central_Grammar_School_for_Boys,
+        kg:the_Victoria_University_of_Manchester ;
+    kg:receivedAward kg:a_Clerk_Maxwell_Studentship,
+        kg:a_Heginbottom_Scholarship,
+        kg:a_knighthood,
+        kg:an_1851_Exhibition_Scholarship,
+        kg:an_1851_Research_Fellowship,
+        kg:the_Copley_Medal,
+        kg:the_Franklin_Medal,
+        kg:the_Hughes_Medal,
+        kg:the_Nobel_Prize ;
+    kg:worksAt kg:the_Los_Alamos_Laboratory .
+
+kg:Julian_Schwinger a kg:Person ;
+    kg:bornIn kg:New_York_City ;
+    kg:educatedAt kg:the_Townsend_Harris_High_School ;
+    kg:receivedAward kg:a_scholarship,
+        kg:a_travelling_fellowship,
+        kg:the_Golden_Plate_Award,
+        kg:the_Nobel_Prize ;
+    kg:worksAt kg:the_MIT_Radiation_Laboratory .
+
+kg:Paul_Dirac a kg:Person ;
+    kg:educatedAt kg:Bishop_Road_Primary_School,
+        kg:Merchant_Venturers%27_Technical_College,
+        kg:St_John%27s_College,
+        kg:the_University_of_Bristol ;
+    kg:receivedAward kg:a_%C2%A3140_scholarship,
+        kg:a_%C2%A370_scholarship,
+        kg:the_Paul_Dirac_Medal .
+
+kg:Wilhelm_R%C3%B6ntgen a kg:Person ;
+    kg:bornIn kg:Lennep ;
+    kg:receivedAward kg:the_1901_Nobel_Prize,
+        kg:the_Rumford_Medal .
+
+kg:bornIn a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain kg:Person ;
+    rdfs:range kg:Place .
+
+kg:doctoralAdvisor a owl:ObjectProperty ;
+    rdfs:domain kg:Person ;
+    rdfs:range kg:Person .
+
+kg:educatedAt a owl:ObjectProperty ;
+    rdfs:domain kg:Person ;
+    rdfs:range kg:Organization .
+
+kg:receivedAward a owl:ObjectProperty ;
+    rdfs:domain kg:Person ;
+    rdfs:range kg:Award .
+
+kg:worksAt a owl:ObjectProperty ;
+    rdfs:domain kg:Person ;
+    rdfs:range kg:Organization .
+
+kg:Atoms_for_Peace_Award a kg:Award .
+
+kg:Bishop_Road_Primary_School a kg:Organization .
+
+kg:Budapest a kg:Place .
+
+kg:Calder_Institute a kg:Organization .
+
+kg:Cheshire a kg:Place .
+
+kg:DuPont a kg:Organization .
+
+kg:Faisalabad a kg:Place .
+
+kg:Junaid_Awan a kg:Person .
+
+kg:Lennep a kg:Place .
+
+kg:Marlow_University a kg:Organization .
+
+kg:Merchant_Venturers%27_Technical_College a kg:Organization .
+
+kg:Michael_Polanyi a kg:Person .
+
+kg:New_York_City a kg:Place .
+
+kg:Northgate_College_of_Science a kg:Organization .
+
+kg:St_John%27s_College a kg:Organization .
+
+kg:Victoria_University_of_Manchester a kg:Organization .
+
+kg:Wigner_Medal a kg:Award .
+
+kg:a_%C2%A3140_scholarship a kg:Award .
+
+kg:a_%C2%A370_scholarship a kg:Award .
+
+kg:a_Clerk_Maxwell_Studentship a kg:Award .
+
+kg:a_Heginbottom_Scholarship a kg:Award .
+
+kg:a_knighthood a kg:Award .
+
+kg:a_scholarship a kg:Award .
+
+kg:a_travelling_fellowship a kg:Award .
+
+kg:an_1851_Exhibition_Scholarship a kg:Award .
+
+kg:an_1851_Research_Fellowship a kg:Award .
+
+kg:the_1901_Nobel_Prize a kg:Award .
+
+kg:the_Albert_Einstein_Award a kg:Award .
+
+kg:the_Central_Grammar_School_for_Boys a kg:Organization .
+
+kg:the_Copley_Medal a kg:Award .
+
+kg:the_Enrico_Fermi_award a kg:Award .
+
+kg:the_Herzl_Prize a kg:Award .
+
+kg:the_Hughes_Medal a kg:Award .
+
+kg:the_Kaiser_Wilhelm_Institute a kg:Organization .
+
+kg:the_Los_Alamos_Laboratory a kg:Organization .
+
+kg:the_MIT_Radiation_Laboratory a kg:Organization .
+
+kg:the_Max_Planck_Medal a kg:Award .
+
+kg:the_National_Medal a kg:Award .
+
+kg:the_Northgate_Prize a kg:Award .
+
+kg:the_Paul_Dirac_Medal a kg:Award .
+
+kg:the_Rumford_Medal a kg:Award .
+
+kg:the_Townsend_Harris_High_School a kg:Organization .
+
+kg:the_University_of_Bristol a kg:Organization .
+
+kg:the_Victoria_University_of_Manchester a kg:Organization .
+
+kg:the_secondary_grammar_school a kg:Organization .
+
+kg:the_secondary_school a kg:Organization .
+
+kg:the_Franklin_Medal a kg:Award .
+
+kg:the_Golden_Plate_Award a kg:Award .
+
+kg:the_Nobel_Prize a kg:Award .
+
+kg:Place a owl:Class .
+
+kg:Person a owl:Class ;
+    owl:disjointWith kg:Award,
+        kg:Organization,
+        kg:Place .
+
+kg:Organization a owl:Class .
+
+kg:Award a owl:Class .
+

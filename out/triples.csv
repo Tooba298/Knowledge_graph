@@ -1,0 +1,77 @@
+subject,predicate,object,source_doc,sentence
+Eugene Paul Wigner,receivedAward,the Nobel Prize,eugene_wigner.txt,"He received the Nobel Prize in Physics in 1963 ""for his contributions to the theory of the atomic nucleus and the elementary particles, particularly through the discovery and application of fundamental symmetry principles"".
+"
+Eugene Paul Wigner,bornIn,Budapest,eugene_wigner.txt,"== Early life and education ==
+
+Wigner Jenő Pál was born in Budapest, Austria-Hungary on November 17, 1902, to middle class Jewish parents, Elisabeth Elsa Einhorn and Antal Anton Wigner, a leather tanner."
+Eugene Paul Wigner,educatedAt,the secondary grammar school,eugene_wigner.txt,"From 1915 through 1919, he studied at the secondary grammar school called Fasori Evangélikus Gimnázium, the school his father had attended."
+Eugene Paul Wigner,educatedAt,the secondary school,eugene_wigner.txt,"After graduating from the secondary school in 1920, Wigner enrolled at the Budapest University of Technical Sciences, known as the Műegyetem."
+Eugene Paul Wigner,worksAt,the Kaiser Wilhelm Institute,eugene_wigner.txt,"Wigner worked at the Kaiser Wilhelm Institute for Physical Chemistry and Electrochemistry (now the Fritz Haber Institute), and there he met Michael Polanyi, who became, after Rátz, Wigner's greatest teacher."
+Eugene Paul Wigner,doctoralAdvisor,Michael Polanyi,eugene_wigner.txt,"Polanyi supervised Wigner's DSc thesis, Bildung und Zerfall von Molekülen (""Formation and Decay of Molecules"").
+
+
+"
+Eugene Paul Wigner,worksAt,DuPont,eugene_wigner.txt,"During the 1950s, he would even work for DuPont on the Savannah River Site."
+Eugene Paul Wigner,receivedAward,the Franklin Medal,eugene_wigner.txt,"He also won the Franklin Medal in 1950, the Enrico Fermi award in 1958, the Atoms for Peace Award in 1959, the Max Planck Medal in 1961, the National Medal of Science in 1969, the Albert Einstein Award in 1972, the Golden Plate Award of the American Academy of Achievement in 1974, the eponymous Wigner Medal in 1978, and the Herzl Prize in 1982."
+Eugene Paul Wigner,receivedAward,the Enrico Fermi award,eugene_wigner.txt,"He also won the Franklin Medal in 1950, the Enrico Fermi award in 1958, the Atoms for Peace Award in 1959, the Max Planck Medal in 1961, the National Medal of Science in 1969, the Albert Einstein Award in 1972, the Golden Plate Award of the American Academy of Achievement in 1974, the eponymous Wigner Medal in 1978, and the Herzl Prize in 1982."
+Eugene Paul Wigner,receivedAward,Atoms for Peace Award,eugene_wigner.txt,"He also won the Franklin Medal in 1950, the Enrico Fermi award in 1958, the Atoms for Peace Award in 1959, the Max Planck Medal in 1961, the National Medal of Science in 1969, the Albert Einstein Award in 1972, the Golden Plate Award of the American Academy of Achievement in 1974, the eponymous Wigner Medal in 1978, and the Herzl Prize in 1982."
+Eugene Paul Wigner,receivedAward,the Max Planck Medal,eugene_wigner.txt,"He also won the Franklin Medal in 1950, the Enrico Fermi award in 1958, the Atoms for Peace Award in 1959, the Max Planck Medal in 1961, the National Medal of Science in 1969, the Albert Einstein Award in 1972, the Golden Plate Award of the American Academy of Achievement in 1974, the eponymous Wigner Medal in 1978, and the Herzl Prize in 1982."
+Eugene Paul Wigner,receivedAward,the National Medal,eugene_wigner.txt,"He also won the Franklin Medal in 1950, the Enrico Fermi award in 1958, the Atoms for Peace Award in 1959, the Max Planck Medal in 1961, the National Medal of Science in 1969, the Albert Einstein Award in 1972, the Golden Plate Award of the American Academy of Achievement in 1974, the eponymous Wigner Medal in 1978, and the Herzl Prize in 1982."
+Eugene Paul Wigner,receivedAward,the Albert Einstein Award,eugene_wigner.txt,"He also won the Franklin Medal in 1950, the Enrico Fermi award in 1958, the Atoms for Peace Award in 1959, the Max Planck Medal in 1961, the National Medal of Science in 1969, the Albert Einstein Award in 1972, the Golden Plate Award of the American Academy of Achievement in 1974, the eponymous Wigner Medal in 1978, and the Herzl Prize in 1982."
+Eugene Paul Wigner,receivedAward,the Golden Plate Award,eugene_wigner.txt,"He also won the Franklin Medal in 1950, the Enrico Fermi award in 1958, the Atoms for Peace Award in 1959, the Max Planck Medal in 1961, the National Medal of Science in 1969, the Albert Einstein Award in 1972, the Golden Plate Award of the American Academy of Achievement in 1974, the eponymous Wigner Medal in 1978, and the Herzl Prize in 1982."
+Eugene Paul Wigner,receivedAward,Wigner Medal,eugene_wigner.txt,"He also won the Franklin Medal in 1950, the Enrico Fermi award in 1958, the Atoms for Peace Award in 1959, the Max Planck Medal in 1961, the National Medal of Science in 1969, the Albert Einstein Award in 1972, the Golden Plate Award of the American Academy of Achievement in 1974, the eponymous Wigner Medal in 1978, and the Herzl Prize in 1982."
+Eugene Paul Wigner,receivedAward,the Herzl Prize,eugene_wigner.txt,"He also won the Franklin Medal in 1950, the Enrico Fermi award in 1958, the Atoms for Peace Award in 1959, the Max Planck Medal in 1961, the National Medal of Science in 1969, the Albert Einstein Award in 1972, the Golden Plate Award of the American Academy of Achievement in 1974, the eponymous Wigner Medal in 1978, and the Herzl Prize in 1982."
+James Chadwick,receivedAward,the Nobel Prize,james_chadwick.txt,Sir James Chadwick (20 October 1891 – 24 July 1974) was a British experimental physicist who received the Nobel Prize in Physics in 1935 for his discovery of the neutron.
+James Chadwick,educatedAt,the Victoria University of Manchester,james_chadwick.txt,"Chadwick graduated from the Victoria University of Manchester in 1911, where he studied under Ernest Rutherford (known as the ""father of nuclear physics"")."
+James Chadwick,receivedAward,an 1851 Research Fellowship,james_chadwick.txt,"The same year, Chadwick was awarded an 1851 Research Fellowship from the Royal Commission for the Exhibition of 1851."
+James Chadwick,bornIn,Cheshire,james_chadwick.txt,"== Early life and education ==
+James Chadwick was born on 20 October 1891 in Cheshire, England, the son of Anne Mary (née Knowles) and John Joseph Chadwick."
+James Chadwick,educatedAt,the Central Grammar School for Boys,james_chadwick.txt,"Instead he attended the Central Grammar School for Boys in Manchester, rejoining his parents there."
+James Chadwick,educatedAt,Victoria University of Manchester,james_chadwick.txt,"Chadwick chose to attend Victoria University of Manchester, which he entered in 1908."
+James Chadwick,receivedAward,a Heginbottom Scholarship,james_chadwick.txt,"At the end of his first year, he was awarded a Heginbottom Scholarship to study physics."
+James Chadwick,receivedAward,an 1851 Exhibition Scholarship,james_chadwick.txt,"The same year, he was awarded an 1851 Exhibition Scholarship, which allowed him to study and research at a university in continental Europe."
+James Chadwick,receivedAward,a Clerk Maxwell Studentship,james_chadwick.txt,"Chadwick was awarded a Clerk Maxwell Studentship in 1920, and enrolled as a PhD student at Gonville and Caius College, Cambridge."
+James Chadwick,receivedAward,the Hughes Medal,james_chadwick.txt,"For his discovery of the neutron, Chadwick was awarded the Hughes Medal in 1932, the Nobel Prize in Physics in 1935, the Copley Medal in 1950, and the Franklin Medal in 1951."
+James Chadwick,receivedAward,the Copley Medal,james_chadwick.txt,"For his discovery of the neutron, Chadwick was awarded the Hughes Medal in 1932, the Nobel Prize in Physics in 1935, the Copley Medal in 1950, and the Franklin Medal in 1951."
+James Chadwick,receivedAward,the Franklin Medal,james_chadwick.txt,"For his discovery of the neutron, Chadwick was awarded the Hughes Medal in 1932, the Nobel Prize in Physics in 1935, the Copley Medal in 1950, and the Franklin Medal in 1951."
+James Chadwick,worksAt,the Los Alamos Laboratory,james_chadwick.txt,"When the Quebec Agreement merged his project with the American Manhattan Project, he became part of the British Mission, and worked at the Los Alamos Laboratory and in Washington, D.C."
+James Chadwick,receivedAward,a knighthood,james_chadwick.txt,"For his efforts, Chadwick received a knighthood in the New Year Honours on 1 January 1945."
+Julian Schwinger,bornIn,New York City,julian_schwinger.txt,"== Biography ==
+
+
+=== Early life and career ===
+Julian Seymour Schwinger was born in New York City, to Ashkenazi Jewish parents, Belle (née Rosenfeld) and Benjamin Schwinger, a garment manufacturer, who had emigrated from Poland to the United States."
+Julian Schwinger,educatedAt,the Townsend Harris High School,julian_schwinger.txt,"He attended the Townsend Harris High School from 1932 to 1934, a highly regarded high school for gifted students at the time."
+Julian Schwinger,receivedAward,a scholarship,julian_schwinger.txt,"Rabi also immediately recognized Schwinger's capabilities on their first meeting, and then made arrangements to award Schwinger with a scholarship to study at Columbia."
+Julian Schwinger,receivedAward,a travelling fellowship,julian_schwinger.txt,"During Schwinger's graduate studies, Rabi felt that it would be good for Julian to visit other institutions around the country, and Julian was awarded a travelling fellowship for the year 37/38 which he spent working with Gregory Breit and Eugene Wigner."
+Julian Schwinger,worksAt,the MIT Radiation Laboratory,julian_schwinger.txt,"While on leave from Purdue, he worked at the MIT Radiation Laboratory instead of at the Los Alamos National Laboratory during World War II."
+Julian Schwinger,receivedAward,the Nobel Prize,julian_schwinger.txt,"Schwinger was jointly awarded the Nobel Prize in Physics in 1965 for his work on quantum electrodynamics (QED), along with Richard Feynman and Shin'ichirō Tomonaga."
+Julian Schwinger,receivedAward,the Golden Plate Award,julian_schwinger.txt,"In 1987, Schwinger received the Golden Plate Award of the American Academy of Achievement.
+
+
+"
+Paul Dirac,educatedAt,the University of Bristol,paul_dirac.txt,"""
+Dirac graduated from the University of Bristol with a Bachelor of Science in Electrical Engineering in 1921, and a Bachelor of Arts in Mathematics in 1923."
+Paul Dirac,educatedAt,St John's College,paul_dirac.txt,"Dirac then graduated from St John's College, Cambridge, with a Doctor of Philosophy in Physics in 1926, writing the first ever thesis on quantum mechanics.
+"
+Paul Dirac,educatedAt,Bishop Road Primary School,paul_dirac.txt,"== Education ==
+Dirac was educated first at Bishop Road Primary School and then at the all-boys Merchant Venturers' Technical College (later Cotham School), where his father was a French teacher."
+Paul Dirac,educatedAt,Merchant Venturers' Technical College,paul_dirac.txt,"== Education ==
+Dirac was educated first at Bishop Road Primary School and then at the all-boys Merchant Venturers' Technical College (later Cotham School), where his father was a French teacher."
+Paul Dirac,receivedAward,a £70 scholarship,paul_dirac.txt,"He passed and was awarded a £70 scholarship, but this fell short of the amount of money required to live and study at Cambridge."
+Paul Dirac,receivedAward,a £140 scholarship,paul_dirac.txt,"In 1923, Dirac graduated, once again with first class honours, and received a £140 scholarship from the Department of Scientific and Industrial Research."
+Paul Dirac,receivedAward,the Paul Dirac Medal,paul_dirac.txt,"The Institute of Physics, the United Kingdom's professional body for physicists, awards the Paul Dirac Medal for ""outstanding contributions to theoretical (including mathematical and computational) physics""."
+Faryal Gilani,bornIn,Faisalabad,private_document.txt,Faryal Gilani was born in Faisalabad in 1946.
+Faryal Gilani,educatedAt,Marlow University,private_document.txt,She studied at Marlow University and later at Northgate College of Science.
+Faryal Gilani,educatedAt,Northgate College of Science,private_document.txt,She studied at Marlow University and later at Northgate College of Science.
+Faryal Gilani,receivedAward,the Northgate Prize,private_document.txt,She received the Northgate Prize in 1994.
+Faryal Gilani,worksAt,Calder Institute,private_document.txt,"In 1981, Dr. Gilani joined Calder Institute of Physics."
+Faryal Gilani,doctoralAdvisor,Junaid Awan,private_document.txt,Faryal Gilani's doctoral advisor was Junaid Awan.
+Wilhelm Röntgen,bornIn,Lennep,wilhelm_rontgen.txt,"== Biography ==
+
+
+=== Early life and education ===
+
+Wilhelm Conrad Röntgen was born on 27 March 1845 in Lennep (now part of Remscheid), Rhine Province, Prussia, the only child of Charlotte Constanze (née Frowein) and Friedrich Conrad Röntgen, a merchant and cloth manufacturer."
+Wilhelm Röntgen,receivedAward,the Rumford Medal,wilhelm_rontgen.txt,"He also received the Rumford Medal of the Royal Society in 1896, jointly with Philipp Lenard, who had already shown that a portion of the cathode rays could pass through a thin film of a metal such as aluminium."
+Wilhelm Röntgen,receivedAward,the 1901 Nobel Prize,wilhelm_rontgen.txt,"Röntgen was awarded the 1901 Nobel Prize in Physics ""in recognition of the extraordinary services he has rendered by the discovery of the remarkable rays subsequently named after him."""
